@@ -1,0 +1,55 @@
+.loginWrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://r1.hiclipart.com/path/1017/535/808/fstcd6gek5mmtt3cn0irgv80qs-0b5459155aea93fea3a84547f7d9306b.png");
+  background-repeat-y: no-repeat;
+  background-size: 25%;
+  background-position: bottom;
+}
+
+.loginForm {
+  width: 300px;
+  text-align: center;
+}
+.loginForm input,
+button {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  padding: 20px 20px;
+  outline: none;
+}
+
+.loginForm input {
+  font-size: 80%;
+}
+
+.loginForm button {
+  font-weight: bold;
+  font-size: 85%;
+  background: #fdbc28;
+  color: white;
+}
+
+.loginForm span {
+  font-size: 89%;
+  text-align: center;
+  color: black;
+}
+
+.logoBrand {
+  font-size: 570%;
+  /* margin-bottom: 50px; */
+  transform: translate(0px, 5px);
+}
+
+
+.logoBrand img{
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.94);
+}
